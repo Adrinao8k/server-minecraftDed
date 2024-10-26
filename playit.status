@@ -3070,3 +3070,30 @@ ever-prerequisite.gl.at.ply.gg:2576 => 127.0.0.1:2576 (proto: Udp, port count: 1
 TUNNELS
 race-frequent.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
 ever-prerequisite.gl.at.ply.gg:2576 => 127.0.0.1:2576 (proto: Udp, port count: 1)
+[2J8[0mplayit (v0.15.26): 1729960269016 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+race-frequent.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+ever-prerequisite.gl.at.ply.gg:2576 => 127.0.0.1:2576 (proto: Udp, port count: 1)
+[2J8[0mplayit (v0.15.26): 1729960272077 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+race-frequent.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+ever-prerequisite.gl.at.ply.gg:2576 => 127.0.0.1:2576 (proto: Udp, port count: 1)
+[2J8[0mplayit (v0.15.26): 1729960275146 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+race-frequent.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+ever-prerequisite.gl.at.ply.gg:2576 => 127.0.0.1:2576 (proto: Udp, port count: 1)
+[2J8[0mplayit (v0.15.26): 1729960278223 tunnel running, 2 tunnels registered
+
+
+TUNNELS
+race-frequent.gl.joinmc.link => 127.0.0.1:25565 (minecraft-java)
+ever-prerequisite.gl.at.ply.gg:2576 => 127.0.0.1:2576 (proto: Udp, port count: 1)
+[2J8[0mGot Error
+MSG: Failed to load latest tunnels
+Error: ClientError(TooManyRequests)
