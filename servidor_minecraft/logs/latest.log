@@ -1,0 +1,667 @@
+[22:09:55] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.11, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[22:09:55] [main/INFO] [cpw.mods.modlauncher.Launcher]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.4 by Microsoft; OS Linux arch amd64 version 6.5.0-1025-azure
+[22:09:55] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler]: ImmediateWindowProvider not loading because launch target is forgeserver
+[22:09:55] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/server-minecraftDed/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23113!/ Service=ModLauncher Env=SERVER
+[22:09:55] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator]: Found 3 dependencies adding them to mods collection
+[22:09:57] [main/INFO] [mixin]: Compatibility level set to JAVA_17
+[22:09:57] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler]: Launching target 'forgeserver' with arguments [nogui]
+[22:09:57] [main/WARN] [mixin]: Reference map 'immersive_paintings-common-refmap.json' for immersive_paintings.mixin.json could not be read. If this is a development environment you can ignore this message
+[22:09:59] [main/INFO] [MixinExtras|Service]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[22:10:04] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: Mohist mod loading.....
+[22:10:04] [modloading-worker-0/INFO] [com.mohistmc.MohistMC]: EventDispatcherRegistry initialized
+[22:10:05] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod]: Forge mod loading, version 47.3.11, for MC 1.20.1 with MCP 20230612.114412
+[22:10:05] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: MinecraftForge v47.3.11 Initialized
+[22:10:05] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge]: NeoForge v47.1.106 Initialized
+[22:10:05] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl]: Registering C2S receiver with id architectury:sync_ids
+[22:10:05] [modloading-worker-0/INFO] [Collective]: Loading Collective version 7.84.
+[22:10:05] [modloading-worker-0/INFO] [voicechat]: [voicechat] Compatibility version 18
+[22:10:05] [modloading-worker-0/INFO] [CPM]: Customizable Player Models Initialized
+[22:10:05] [modloading-worker-0/INFO] [voicechat]: [voicechat] Loading plugins
+[22:10:05] [modloading-worker-0/INFO] [voicechat]: [voicechat] Loaded 0 plugin(s)
+[22:10:05] [modloading-worker-0/INFO] [voicechat]: [voicechat] Initializing plugins
+[22:10:05] [modloading-worker-0/INFO] [voicechat]: [voicechat] Initialized 0 plugin(s)
+[22:10:06] [modloading-worker-0/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4cde7bca]
+[22:10:06] [modloading-worker-0/INFO] [com.sk89q.worldedit.forge.ForgeWorldEdit]: WorldEdit for Forge (version 7.2.15+6463-5ca4dff) is loaded
+[22:10:06] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer]: Loading Xaero's World Map - Stage 1/2 (Server)
+[22:10:06] [main/INFO] [xaero.map.server.WorldMapServer]: Loading Xaero's World Map - Stage 2/2 (Server)
+[22:10:06] [modloading-worker-0/INFO] [CPM]: Customizable Player Models API initialized: Loaded plugins: (0)
+
+[22:10:08] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:10:08] [main/WARN] [net.minecraftforge.common.ForgeHooks]: The following mods have version differences that were not resolved:
+dedsafio_3 (version 1 -> MISSING)
+modminds (version 1.0.4 -> 1.0.5)
+pacomodsforge (version 0.0.4 -> MISSING)
+Things may not work well.
+[22:10:08] [main/ERROR] [net.minecraftforge.registries.GameData]: Unidentified mapping from registry minecraft:block
+	dedsafio_3:altar_a: 1006
+	dedsafio_3:altar_objects: 1008
+	dedsafio_3:batidora_legendaria: 1003
+	dedsafio_3:casino_d_3: 1007
+	dedsafio_3:lana_arcoiris: 1004
+	dedsafio_3:stone_plyaer: 1005
+	pacomodsforge:reforced_glass: 1009
+
+[22:10:08] [main/ERROR] [net.minecraftforge.registries.GameData]: Unidentified mapping from registry minecraft:entity_type
+	dedsafio_3:blaze_storm: 137
+	dedsafio_3:bone_spider: 135
+	dedsafio_3:creeper_cake: 130
+	dedsafio_3:creeper_warden: 136
+	dedsafio_3:esquelo_dog: 133
+	dedsafio_3:fantasma_rojo: 143
+	dedsafio_3:flashbang: 140
+	dedsafio_3:fogata: 144
+	dedsafio_3:infernal_bull: 134
+	dedsafio_3:medusa: 139
+	dedsafio_3:r_evill_boss: 138
+	dedsafio_3:rana_gigante: 131
+	dedsafio_3:revil: 128
+	dedsafio_3:sapo: 132
+	dedsafio_3:taxi_23: 129
+	dedsafio_3:tiki: 145
+	dedsafio_3:tiki_guardian: 142
+	dedsafio_3:wild_fire: 141
+	pacomodsforge:bomba_r_cuerpo: 150
+	pacomodsforge:bomba_r_voladora: 149
+	pacomodsforge:fantasmarojo: 147
+	pacomodsforge:mobxd: 146
+	pacomodsforge:spawner: 148
+
+[22:10:08] [main/ERROR] [net.minecraftforge.registries.GameData]: Unidentified mapping from registry minecraft:item
+	dedsafio_3:aguacate: 1271
+	dedsafio_3:alma_golem: 1282
+	dedsafio_3:altar_a: 1287
+	dedsafio_3:altar_objects: 1312
+	dedsafio_3:armadura_espacial_boots: 1309
+	dedsafio_3:armadura_espacial_chestplate: 1307
+	dedsafio_3:armadura_espacial_helmet: 1306
+	dedsafio_3:armadura_espacial_leggings: 1308
+	dedsafio_3:armadura_infernal_boots: 1277
+	dedsafio_3:armadura_infernal_chestplate: 1275
+	dedsafio_3:armadura_infernal_helmet: 1274
+	dedsafio_3:armadura_infernal_leggings: 1276
+	dedsafio_3:batidora_legendaria: 1260
+	dedsafio_3:blaze_storm_spawn_egg: 1295
+	dedsafio_3:bone_spider_spawn_egg: 1293
+	dedsafio_3:brocoli: 1299
+	dedsafio_3:casino_d_3: 1301
+	dedsafio_3:cetro_ancestral: 1259
+	dedsafio_3:creeper_cake_spawn_egg: 1278
+	dedsafio_3:creeper_warden_spawn_egg: 1294
+	dedsafio_3:cuchara: 1262
+	dedsafio_3:cuchara_normal: 1296
+	dedsafio_3:dedita_celeste: 1270
+	dedsafio_3:dedita_gold: 1269
+	dedsafio_3:deditas: 1268
+	dedsafio_3:espada_fantasmal: 1280
+	dedsafio_3:espada_inanimada: 1281
+	dedsafio_3:esquelo_dog_spawn_egg: 1288
+	dedsafio_3:fantasma_rojo_spawn_egg: 1311
+	dedsafio_3:flashbang_spawn_egg: 1300
+	dedsafio_3:fogata_spawn_egg: 1313
+	dedsafio_3:fragmento_infernal: 1292
+	dedsafio_3:icon: 1264
+	dedsafio_3:inferal_nugets: 1291
+	dedsafio_3:infernal_bull_spawn_egg: 1289
+	dedsafio_3:infernal_ingots: 1290
+	dedsafio_3:infernal_sword: 1279
+	dedsafio_3:lana_arcoiris: 1261
+	dedsafio_3:manzana: 1266
+	dedsafio_3:maza: 1302
+	dedsafio_3:medusa_spawn_egg: 1298
+	dedsafio_3:metal_recocido: 1283
+	dedsafio_3:pildora: 1303
+	dedsafio_3:r_evill_boss_spawn_egg: 1297
+	dedsafio_3:rana_gigante_spawn_egg: 1285
+	dedsafio_3:revil_spawn_egg: 1263
+	dedsafio_3:rodillo: 1267
+	dedsafio_3:sapo_spawn_egg: 1286
+	dedsafio_3:sc_3: 1305
+	dedsafio_3:stone_plyaer: 1284
+	dedsafio_3:taxi: 1273
+	dedsafio_3:taxi_23_spawn_egg: 1272
+	dedsafio_3:tenedor: 1265
+	dedsafio_3:tiki_guardian_spawn_egg: 1310
+	dedsafio_3:tiki_spawn_egg: 1314
+	dedsafio_3:wild_fire_spawn_egg: 1304
+	pacomodsforge:black_shulker_bag: 1355
+	pacomodsforge:blue_capsule: 1345
+	pacomodsforge:blue_shulker_bag: 1356
+	pacomodsforge:bomba_r_voladora_spawn_egg: 1374
+	pacomodsforge:boost: 1370
+	pacomodsforge:brown_shulker_bag: 1357
+	pacomodsforge:cyan_shulker_bag: 1358
+	pacomodsforge:emptycapsule: 1346
+	pacomodsforge:ender_bag: 1371
+	pacomodsforge:espada: 1366
+	pacomodsforge:fantasmarojo_spawn_egg: 1369
+	pacomodsforge:gray_shulker_bag: 1359
+	pacomodsforge:green_shulker_bag: 1360
+	pacomodsforge:healingsword: 1348
+	pacomodsforge:light_blue_shulker_bag: 1361
+	pacomodsforge:light_gray_shulker_bag: 1362
+	pacomodsforge:lime_shulker_bag: 1363
+	pacomodsforge:magenta_shulker_bag: 1364
+	pacomodsforge:mobxd_spawn_egg: 1365
+	pacomodsforge:orange_shulker_bag: 1350
+	pacomodsforge:pink_shulker_bag: 1352
+	pacomodsforge:portable_anvil: 1367
+	pacomodsforge:portable_golden_anvil: 1368
+	pacomodsforge:procectorsolar: 1344
+	pacomodsforge:purple_shulker_bag: 1353
+	pacomodsforge:red_shulker_bag: 1351
+	pacomodsforge:reforced_glass: 1372
+	pacomodsforge:shulkerbag: 1347
+	pacomodsforge:spawner_spawn_egg: 1373
+	pacomodsforge:white_shulker_bag: 1349
+	pacomodsforge:yellow_shulker_bag: 1354
+
+[22:10:08] [main/ERROR] [net.minecraftforge.registries.GameData]: Unidentified mapping from registry minecraft:mob_effect
+	pacomodsforge:freeze_effect: 44
+	pacomodsforge:protectorsolar: 41
+	pacomodsforge:shuffle: 45
+	pacomodsforge:trueslowness: 43
+	pacomodsforge:zombifik: 42
+
+[22:10:08] [main/ERROR] [net.minecraftforge.registries.GameData]: Unidentified mapping from registry minecraft:sound_event
+	dedsafio_3:flash: 1478
+	dedsafio_3:gorgondie: 1475
+	dedsafio_3:gorgonhurt: 1476
+	dedsafio_3:gorgonidle: 1477
+	dedsafio_3:gorgonrisa: 1474
+	pacomodsforge:ghost.ambient: 1480
+	pacomodsforge:ghost.death: 1481
+	pacomodsforge:ghosthit: 1479
+
+[22:10:08] [main/WARN] [net.minecraftforge.registries.GameData]: Forge Mod Loader detected missing registry entries.
+
+There are 130 missing entries in this save.
+If you continue the missing entries will get removed.
+A world backup will be automatically created in your saves directory.
+
+
+[22:10:08] [main/WARN] [net.minecraftforge.registries.GameData]: Missing minecraft:sound_event:
+    dedsafio_3:flash
+    dedsafio_3:gorgondie
+    dedsafio_3:gorgonhurt
+    dedsafio_3:gorgonidle
+    dedsafio_3:gorgonrisa
+    pacomodsforge:ghost.ambient
+    pacomodsforge:ghost.death
+    pacomodsforge:ghosthit
+
+Missing minecraft:item:
+    dedsafio_3:aguacate
+    dedsafio_3:alma_golem
+    dedsafio_3:altar_a
+    dedsafio_3:altar_objects
+    dedsafio_3:armadura_espacial_boots
+    dedsafio_3:armadura_espacial_chestplate
+    dedsafio_3:armadura_espacial_helmet
+    dedsafio_3:armadura_espacial_leggings
+    dedsafio_3:armadura_infernal_boots
+    dedsafio_3:armadura_infernal_chestplate
+    dedsafio_3:armadura_infernal_helmet
+    dedsafio_3:armadura_infernal_leggings
+    dedsafio_3:batidora_legendaria
+    dedsafio_3:blaze_storm_spawn_egg
+    dedsafio_3:bone_spider_spawn_egg
+    dedsafio_3:brocoli
+    dedsafio_3:casino_d_3
+    dedsafio_3:cetro_ancestral
+    dedsafio_3:creeper_cake_spawn_egg
+    dedsafio_3:creeper_warden_spawn_egg
+    dedsafio_3:cuchara
+    dedsafio_3:cuchara_normal
+    dedsafio_3:dedita_celeste
+    dedsafio_3:dedita_gold
+    dedsafio_3:deditas
+    dedsafio_3:espada_fantasmal
+    dedsafio_3:espada_inanimada
+    dedsafio_3:esquelo_dog_spawn_egg
+    dedsafio_3:fantasma_rojo_spawn_egg
+    dedsafio_3:flashbang_spawn_egg
+    dedsafio_3:fogata_spawn_egg
+    dedsafio_3:fragmento_infernal
+    dedsafio_3:icon
+    dedsafio_3:inferal_nugets
+    dedsafio_3:infernal_bull_spawn_egg
+    dedsafio_3:infernal_ingots
+    dedsafio_3:infernal_sword
+    dedsafio_3:lana_arcoiris
+    dedsafio_3:manzana
+    dedsafio_3:maza
+    dedsafio_3:medusa_spawn_egg
+    dedsafio_3:metal_recocido
+    dedsafio_3:pildora
+    dedsafio_3:r_evill_boss_spawn_egg
+    dedsafio_3:rana_gigante_spawn_egg
+    dedsafio_3:revil_spawn_egg
+    dedsafio_3:rodillo
+    dedsafio_3:sapo_spawn_egg
+    dedsafio_3:sc_3
+    dedsafio_3:stone_plyaer
+    dedsafio_3:taxi
+    dedsafio_3:taxi_23_spawn_egg
+    dedsafio_3:tenedor
+    dedsafio_3:tiki_guardian_spawn_egg
+    dedsafio_3:tiki_spawn_egg
+    dedsafio_3:wild_fire_spawn_egg
+    pacomodsforge:black_shulker_bag
+    pacomodsforge:blue_capsule
+    pacomodsforge:blue_shulker_bag
+    pacomodsforge:bomba_r_voladora_spawn_egg
+    pacomodsforge:boost
+    pacomodsforge:brown_shulker_bag
+    pacomodsforge:cyan_shulker_bag
+    pacomodsforge:emptycapsule
+    pacomodsforge:ender_bag
+    pacomodsforge:espada
+    pacomodsforge:fantasmarojo_spawn_egg
+    pacomodsforge:gray_shulker_bag
+    pacomodsforge:green_shulker_bag
+    pacomodsforge:healingsword
+    pacomodsforge:light_blue_shulker_bag
+    pacomodsforge:light_gray_shulker_bag
+    pacomodsforge:lime_shulker_bag
+    pacomodsforge:magenta_shulker_bag
+    pacomodsforge:mobxd_spawn_egg
+    pacomodsforge:orange_shulker_bag
+    pacomodsforge:pink_shulker_bag
+    pacomodsforge:portable_anvil
+    pacomodsforge:portable_golden_anvil
+    pacomodsforge:procectorsolar
+    pacomodsforge:purple_shulker_bag
+    pacomodsforge:red_shulker_bag
+    pacomodsforge:reforced_glass
+    pacomodsforge:shulkerbag
+    pacomodsforge:spawner_spawn_egg
+    pacomodsforge:white_shulker_bag
+    pacomodsforge:yellow_shulker_bag
+
+Missing minecraft:block:
+    dedsafio_3:altar_a
+    dedsafio_3:altar_objects
+    dedsafio_3:batidora_legendaria
+    dedsafio_3:casino_d_3
+    dedsafio_3:lana_arcoiris
+    dedsafio_3:stone_plyaer
+    pacomodsforge:reforced_glass
+
+Missing minecraft:mob_effect:
+    pacomodsforge:freeze_effect
+    pacomodsforge:protectorsolar
+    pacomodsforge:shuffle
+    pacomodsforge:trueslowness
+    pacomodsforge:zombifik
+
+Missing minecraft:entity_type:
+    dedsafio_3:blaze_storm
+    dedsafio_3:bone_spider
+    dedsafio_3:creeper_cake
+    dedsafio_3:creeper_warden
+    dedsafio_3:esquelo_dog
+    dedsafio_3:fantasma_rojo
+    dedsafio_3:flashbang
+    dedsafio_3:fogata
+    dedsafio_3:infernal_bull
+    dedsafio_3:medusa
+    dedsafio_3:r_evill_boss
+    dedsafio_3:rana_gigante
+    dedsafio_3:revil
+    dedsafio_3:sapo
+    dedsafio_3:taxi_23
+    dedsafio_3:tiki
+    dedsafio_3:tiki_guardian
+    dedsafio_3:wild_fire
+    pacomodsforge:bomba_r_cuerpo
+    pacomodsforge:bomba_r_voladora
+    pacomodsforge:fantasmarojo
+    pacomodsforge:mobxd
+    pacomodsforge:spawner
+
+
+[22:10:08] [main/ERROR] [net.minecraftforge.registries.GameData]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[22:10:08] [main/WARN] [net.minecraft.server.MinecraftServer]: Missing data pack mod:dedsafio_3
+[22:10:08] [main/WARN] [net.minecraft.server.MinecraftServer]: Missing data pack mod:pacomodsforge
+[22:10:10] [main/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
+[22:10:11] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Loaded 7 recipes
+[22:10:11] [main/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 1314 advancements
+[22:10:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.20.1
+[22:10:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[22:10:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[22:10:12] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Generating keypair
+[22:10:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[22:10:12] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener]: Using epoll channel type
+[22:10:12] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:10:12] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[22:10:12] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:10:12] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:10:12] [Server thread/INFO] [Minecraft]: This server is running Mohist version 1.20.1-895 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT, Forge version 47.3.11, NeoForge version 47.1.106)
+[22:10:13] [Server thread/INFO] [Minecraft]: Debug logging is enabled
+[22:10:13] [Server thread/INFO] []: Server Ping Player Sample Count: 20
+[22:10:13] [Server thread/INFO] [Minecraft]: Using 4 threads for Netty based IO
+[22:10:14] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Loading LuckPerms v5.4.145
+[22:10:15] [Server thread/INFO] [neon.modMindsPlugins.ModMindsPlugins]: [ModMindsPlugins] Loading ModMindsPlugins v1.0.4
+[22:10:15] [Server thread/INFO] [org.popcraft.chunky.ChunkyBukkit]: [Chunky] Loading Chunky v1.4.10
+[22:10:15] [Server thread/INFO] [cc.atenea.dedsafioUtils.DedsafioPlugin]: [dedsafio] Loading dedsafio v1.0.4-ALPHA
+[22:10:15] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.6
+[22:10:15] [Server thread/INFO] [svar.ajneb97.ServerVariables]: [ServerVariables] Loading ServerVariables v2.5.3
+[22:10:15] [Server thread/INFO] [net.skinsrestorer.bukkit.SRBukkitBootstrap]: [SkinsRestorer] Loading SkinsRestorer v15.4.4
+[22:10:15] [Server thread/INFO] [ce.ajneb97.ConditionalEvents]: [ConditionalEvents] Loading ConditionalEvents v4.57.5
+[22:10:15] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Enabling LuckPerms v5.4.145
+[22:10:17] [Server thread/INFO] [Console]:         __    
+[22:10:17] [Server thread/INFO] [Console]:   |    |__)   LuckPerms v5.4.145
+[22:10:17] [Server thread/INFO] [Console]:   |___ |      Running on Bukkit - Mohist
+[22:10:17] [Server thread/INFO] [Console]: 
+[22:10:17] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Loading configuration...
+[22:10:17] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Loading storage provider... [H2]
+[22:10:20] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Loading internal permission managers...
+[22:10:20] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Performing initial data load...
+[22:10:20] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Successfully enabled. (took 5079ms)
+[22:10:20] [Server thread/INFO] [net.skinsrestorer.bukkit.SRBukkitBootstrap]: [SkinsRestorer] Enabling SkinsRestorer v15.4.4
+[22:10:22] [Server thread/WARN] [Minecraft]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[33;1mYou must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.[0;39m
+[22:10:23] [Server thread/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mRunning on Minecraft [33;1m1.20.1[32;1m.[0;39m
+[22:10:24] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.4.4]
+[22:10:24] [Server thread/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mPlaceholderAPI expansion registered![0;39m
+[22:10:24] [Server thread/INFO] [Framework]: Loading server configs...
+[22:10:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[22:10:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[22:10:29] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:10:29] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:10:29] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:10:29] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:10:29] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:10:29] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:10:29] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:10:30] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:10:30] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:10:31] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:10:31] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 12%
+[22:10:32] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 12%
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:32] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 5934 ms
+[22:10:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_nether
+[22:10:32] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:10:33] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:10:33] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:10:33] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:10:34] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 1%
+[22:10:34] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 32%
+[22:10:35] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 2343 ms
+[22:10:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for dimension minecraft:the_end
+[22:10:36] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:10:36] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:10:36] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 0%
+[22:10:36] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Preparing spawn area: 85%
+[22:10:36] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener]: Time elapsed: 1552 ms
+[22:10:36] [Server thread/INFO] [neon.modMindsPlugins.ModMindsPlugins]: [ModMindsPlugins] Enabling ModMindsPlugins v1.0.4
+[22:10:36] [Server thread/INFO] [neon.modMindsPlugins.ModMindsPlugins]: [ModMindsPlugins] ModMindsPlugins activado: configuración inicial cargada.
+[22:10:36] [Server thread/INFO] [org.popcraft.chunky.ChunkyBukkit]: [Chunky] Enabling Chunky v1.4.10
+[22:10:36] [Server thread/INFO] [cc.atenea.dedsafioUtils.DedsafioPlugin]: [dedsafio] Enabling dedsafio v1.0.4-ALPHA
+[22:10:36] [Server thread/INFO] [cc.atenea.dedsafioUtils.DedsafioPlugin]: [dedsafio] Dedsafio-Utils enabled
+[22:10:37] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[22:10:37] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Fetching available expansion information...
+[22:10:37] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Successfully registered internal expansion: mohist [1.20.1]
+[22:10:37] [Server thread/INFO] [com.mohistmc.MohistMC]: Hook PlaceholderAPI!
+[22:10:37] [Server thread/INFO] [svar.ajneb97.ServerVariables]: [ServerVariables] Enabling ServerVariables v2.5.3
+[22:10:37] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Successfully registered internal expansion: servervariables [2.5.3]
+[22:10:37] [Server thread/INFO] [Console]: [ServerVariables] Has been enabled! Version: 2.5.3
+[22:10:37] [Server thread/INFO] [Console]: [ServerVariables] Thanks for using my plugin!   ~Ajneb97
+[22:10:37] [Server thread/INFO] [ce.ajneb97.ConditionalEvents]: [ConditionalEvents] Enabling ConditionalEvents v4.57.5
+[22:10:37] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Successfully registered internal expansion: conditionalevents [4.57.5]
+[22:10:37] [Server thread/INFO] [Console]: [ConditionalEvents] Has been enabled! Version: 4.57.5
+[22:10:37] [Server thread/INFO] [Console]: [ConditionalEvents] Thanks for using my plugin!   ~Ajneb97
+[22:10:37] [Server thread/INFO] [Console]: There is a new version available. (4.58.1)
+[22:10:37] [Server thread/INFO] [Console]: You can download it at: https://modrinth.com/plugin/conditionalevents
+[22:10:37] [Server thread/INFO] [com.mohistmc.plugins.Main]: [Mohist] Enabling Mohist v1.20.1
+[22:10:37] [Server thread/INFO] [Minecraft]: Server permissions file permissions.yml is empty, ignoring it
+[22:10:37] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[22:10:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (13.694s)! For help, type "help"
+[22:10:37] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Successfully initialized permission handler forge:default_handler
+[22:10:37] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI]: Forwarding forge permission[forge:default_handler] to bukkit[mohist:permission]
+[22:10:39] [Server thread/WARN] [voicechat]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[22:10:39] [VoiceChatServerThread/INFO] [voicechat]: [voicechat] Voice chat server started at port 24454
+[22:10:39] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[22:10:39] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[22:10:39] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[22:10:39] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[22:10:39] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[22:10:39] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[22:10:39] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[22:10:39] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Version: [32;1m15.4.4[0;39m
+[22:10:39] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Commit: [32;1mdc501c7[0;39m
+[22:10:39] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[22:10:39] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[22:10:39] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mDo you have issues? Read our troubleshooting guide: [33;1mhttps://skinsrestorer.net/docs/troubleshooting[0;39m
+[22:10:39] [Craft Scheduler Thread - 1/INFO] [Console]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[34;1mWant to support SkinsRestorer? Consider donating: [33;1mhttps://skinsrestorer.net/donate[0;39m
+[22:10:39] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager]: Loaded 7 recipes
+[22:10:39] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 1314 advancements
+[22:10:39] [Server thread/INFO] [net.minecraft.server.packs.resources.ProfiledReloadInstance]: Resource reload finished after 337 ms
+[22:10:39] [Server thread/INFO] [net.minecraft.server.packs.resources.ProfiledReloadInstance]: TagManager took approximately 144 ms (144 ms preparing, 0 ms applying)
+[22:10:39] [Server thread/INFO] [net.minecraft.server.packs.resources.ProfiledReloadInstance]: LootDataManager took approximately 245 ms (232 ms preparing, 13 ms applying)
+[22:10:39] [Server thread/INFO] [net.minecraft.server.packs.resources.ProfiledReloadInstance]: RecipeManager took approximately 100 ms (75 ms preparing, 25 ms applying)
+[22:10:39] [Server thread/INFO] [net.minecraft.server.packs.resources.ProfiledReloadInstance]: ServerFunctionLibrary took approximately 0 ms (0 ms preparing, 0 ms applying)
+[22:10:39] [Server thread/INFO] [net.minecraft.server.packs.resources.ProfiledReloadInstance]: ServerAdvancementManager took approximately 124 ms (88 ms preparing, 36 ms applying)
+[22:10:39] [Server thread/INFO] [net.minecraft.server.packs.resources.ProfiledReloadInstance]: Total blocking time: 74 ms
+[22:10:40] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[22:10:40] [Server thread/INFO] [Console]: 1 placeholder hook(s) registered!
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:altar_a is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:tiki_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what pacomodsforge:portable_golden_anvil is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:fogata_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what pacomodsforge:ender_bag is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:infernal_sword is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:bone_spider_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what pacomodsforge:espada is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:armadura_infernal_helmet is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:revil_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:esquelo_dog_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:creeper_cake_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:r_evill_boss_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:fantasma_rojo_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:wild_fire_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:deditas is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:armadura_infernal_boots is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:tiki_guardian_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:rana_gigante_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:blaze_storm_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:flashbang_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:dedita_gold is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:sapo_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:creeper_warden_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:medusa_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:infernal_bull_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:dedita_celeste is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:armadura_infernal_chestplate is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:armadura_infernal_leggings is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:medusa is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what pacomodsforge:fantasmarojo is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:fantasma_rojo is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:esquelo_dog is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:bone_spider is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:flashbang is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:r_evill_boss is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what pacomodsforge:fantasmarojo is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:fogata is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:wild_fire is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:tiki_guardian is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:infernal_bull is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:rana_gigante is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:blaze_storm is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:tiki is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:sapo is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:medusa is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:revil is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:creeper_cake is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:tiki_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what pacomodsforge:blue_capsule is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:fogata_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:infernal_sword is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:armadura_infernal_helmet is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:revil_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:fantasma_rojo_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:wild_fire_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:manzana is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:armadura_infernal_boots is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:tiki_guardian_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:rana_gigante_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:flashbang_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:blaze_storm_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:creeper_warden_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:infernal_bull_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:dedita_celeste is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:armadura_infernal_chestplate is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:armadura_infernal_leggings is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what pacomodsforge:ender_bag is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what pacomodsforge:fantasmarojo_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:bone_spider_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what pacomodsforge:espada is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:esquelo_dog_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:creeper_cake_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:r_evill_boss_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:deditas is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:cetro_ancestral is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:dedita_gold is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:sapo_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what pacomodsforge:bomba_r_voladora_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:medusa_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:tiki_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:fogata_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:altar_objects is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:infernal_sword is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what pacomodsforge:healingsword is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:revil_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:stone_plyaer is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:fantasma_rojo_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what pacomodsforge:spawner_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:wild_fire_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:manzana is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:armadura_infernal_boots is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:casino_d_3 is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:tiki_guardian_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:rana_gigante_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:flashbang_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:blaze_storm_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:creeper_warden_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:infernal_bull_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:armadura_infernal_chestplate is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:altar_a is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what pacomodsforge:fantasmarojo_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:bone_spider_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what pacomodsforge:espada is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:esquelo_dog_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:creeper_cake_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:armadura_espacial_boots is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:r_evill_boss_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:espada_fantasmal is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:sapo_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what pacomodsforge:bomba_r_voladora_spawn_egg is
+[22:11:18] [Server thread/WARN] [net.minecraft.stats.ServerStatsCounter]: Invalid statistic in ./world/stats/0e132dfa-2ac9-3d28-85a7-d32e9894f81f.json: Don't know what dedsafio_3:medusa_spawn_egg is
+[22:11:18] [Server thread/INFO] [Console]:  Polops se ha conectado
+[22:11:18] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: Polops[/127.101.180.17:39543] logged in with entity id 2410 at ([world]-538.3303765131633, 203.0, -247.1371080415633)
+[22:11:19] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:11:19] [Server thread/INFO] [voicechat]: [voicechat] Received secret request of Polops (18)
+[22:11:19] [Server thread/INFO] [voicechat]: [voicechat] Sent secret to Polops
+[22:11:22] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl]: com.mojang.authlib.GameProfile@57e909ca[id=0e132dfa-2ac9-3d28-85a7-d32e9894f81f,name=Polops,properties={},legacy=false] (/127.101.180.17:52325) lost connection: Disconnected
+[22:12:28] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Polops issued server command: /gamemode survival
+[22:12:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Polops: Set own game mode to Survival Mode]
+[22:12:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ۞ Polops ha consumido un Tótem Espacial
+[22:12:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ۞ Polops ha consumido un Tótem Espacial
+[22:12:40] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:12:40] [Server thread/WARN] [net.minecraft.world.entity.EntityType]: Skipping Entity with id dedsafio_3:esquelo_dog
+[22:12:41] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ۞ Polops ha consumido un Tótem Eon Mariposa
+[22:12:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ۞ Polops ha consumido un Tótem Eon Mariposa
+[22:12:43] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ۞ Polops ha consumido un Búho Tótem
+[22:12:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Polops died
+[22:12:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ۞ Polops ha consumido un Tótem Eon Mariposa
+[22:12:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Polops died because of Gorgona
+[22:13:02] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Polops issued server command: /gamemode creative
+[22:13:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Polops: Set own game mode to Creative Mode]
+[22:13:17] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Polops issued server command: /gamemode survival
+[22:13:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Polops: Set own game mode to Survival Mode]
+[22:13:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Polops died
+[22:13:37] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Polops issued server command: /gamemode creative
+[22:13:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Polops: Set own game mode to Creative Mode]
+[22:14:05] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Polops issued server command: /stop
+[22:14:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [Polops: Stopping the server]
+[22:14:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[22:14:05] [Server thread/INFO] [com.mohistmc.plugins.Main]: [Mohist] Disabling Mohist v1.20.1
+[22:14:05] [Server thread/INFO] [ce.ajneb97.ConditionalEvents]: [ConditionalEvents] Disabling ConditionalEvents v4.57.5
+[22:14:05] [Server thread/INFO] [Console]: [ConditionalEvents] Has been disabled! Version: 4.57.5
+[22:14:05] [Server thread/INFO] [net.skinsrestorer.bukkit.SRBukkitBootstrap]: [SkinsRestorer] Disabling SkinsRestorer v15.4.4
+[22:14:05] [Server thread/INFO] [svar.ajneb97.ServerVariables]: [ServerVariables] Disabling ServerVariables v2.5.3
+[22:14:05] [Server thread/INFO] [Console]: [ServerVariables] Has been disabled! Version: 2.5.3
+[22:14:05] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[22:14:05] [Server thread/INFO] [cc.atenea.dedsafioUtils.DedsafioPlugin]: [dedsafio] Disabling dedsafio v1.0.4-ALPHA
+[22:14:05] [Server thread/INFO] [cc.atenea.dedsafioUtils.DedsafioPlugin]: [dedsafio] Dedsafio-Utils disabled
+[22:14:05] [Server thread/INFO] [org.popcraft.chunky.ChunkyBukkit]: [Chunky] Disabling Chunky v1.4.10
+[22:14:05] [Server thread/INFO] [neon.modMindsPlugins.ModMindsPlugins]: [ModMindsPlugins] Disabling ModMindsPlugins v1.0.4
+[22:14:05] [Server thread/INFO] [neon.modMindsPlugins.ModMindsPlugins]: [ModMindsPlugins] ModMindsPlugins desactivado.
+[22:14:05] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Disabling LuckPerms v5.4.145
+[22:14:05] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Starting shutdown process...
+[22:14:05] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Closing storage...
+[22:14:06] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin]: [LuckPerms] Goodbye!
+[22:14:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[22:14:06] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: Polops lost connection: Server closed
+[22:14:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Polops left the game.
+[22:14:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[22:14:08] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:14:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22:14:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22:14:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:14:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:14:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:14:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:14:40] [Server thread/INFO] [Framework]: Unloading server configs...

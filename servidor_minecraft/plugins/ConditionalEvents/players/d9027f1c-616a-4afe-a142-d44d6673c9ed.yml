@@ -1,0 +1,5 @@
+name: Polops
+events:
+  misionarmaduraentrega0:
+    one_time: true
+    cooldown: 0

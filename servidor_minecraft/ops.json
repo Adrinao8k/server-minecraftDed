@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "530fa97a-357f-3c19-94d3-0c5c65c18fe8",
+    "name": "test",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "d9027f1c-616a-4afe-a142-d44d6673c9ed",
+    "name": "Polops",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "0e132dfa-2ac9-3d28-85a7-d32e9894f81f",
+    "name": "Polops",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

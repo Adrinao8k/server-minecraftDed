@@ -1,0 +1,17 @@
+name: Polops
+events:
+  misionarmaduraentrega:
+    one_time: true
+    cooldown: 0
+  misionarmaduraentrega2:
+    one_time: true
+    cooldown: 0
+  misionarmaduraentrega1:
+    one_time: true
+    cooldown: 0
+  misionarmaduraentrega3:
+    one_time: true
+    cooldown: 0
+  misionarmaduraentrega0:
+    one_time: true
+    cooldown: 0

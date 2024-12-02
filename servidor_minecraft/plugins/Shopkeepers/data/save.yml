@@ -1,0 +1,168 @@
+# This file is not intended to be manually modified! If you want to manually edit this file anyways, ensure that the server is not running currently and that you have prepared a backup of this file.
+
+data-version: 3|2|3465
+'3':
+  uniqueId: 54bae5ea-9ac1-41ec-9c63-fbce45102efc
+  world: world
+  x: -592
+  y: 142
+  z: -290
+  yaw: 326.3391
+  type: admin
+  name: Miscelano
+  object:
+    type: villager
+    baby: true
+    profession: NONE
+    villagerType: JUNGLE
+    villagerLevel: 2
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: IMMERSIVE_PAINTINGS_GRAFFITI
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DEDSAFIO_3_DEDITAS
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: IMMERSIVE_PAINTINGS_GLOW_GRAFFITI
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DEDSAFIO_3_DEDITAS
+    '3':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: MODMINDS_ENDER_BANG
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: MODMINDS_SHULKER_BUNDLE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYOBi4PTMK0vNK8kvqmRmYAnOrEplYGCQ5mRg9SxJzS1mgAAAPB1lzSkAAAA=
+          forgeCaps: H4sIAAAAAAAA/+NiYOBiYAtILErNK2FmYAnOrEplYGCQ5mRg9SxJzS1mgAAAq+teyiYAAAA=
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DEDSAFIO_3_DEDITAS
+        amount: 5
+    '4':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: MODMINDS_SHULKER_BUNDLE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          internal: H4sIAAAAAAAA/+NiYOBi4PTMK0vNK8kvqmRmYAnOrEplYGCQ5mRg9SxJzS1mgAAAPB1lzSkAAAA=
+          forgeCaps: H4sIAAAAAAAA/+NiYOBiYAtILErNK2FmYAnOrEplYGCQ5mRg9SxJzS1mgAAAq+teyiYAAAA=
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DIAMOND
+        amount: 10
+  snapshots: []
+'4':
+  uniqueId: 7ef4446c-05e2-4fa5-a11d-d7b823a26e6c
+  world: world
+  x: -598
+  y: 142
+  z: -290
+  yaw: 194.54301
+  type: admin
+  name: Armeria
+  object:
+    type: villager
+    baby: true
+    profession: NONE
+    villagerType: PLAINS
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DEDSAFIO_3_ESPADA_FANTASMAL
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DEDSAFIO_3_ESPADA_INANIMADA
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DEDSAFIO_3_DEDITAS
+        amount: 5
+  snapshots: []
+'5':
+  uniqueId: ce6c6a66-50c3-42f6-8f95-f64117dae03d
+  world: world
+  x: -600
+  y: 142
+  z: -287
+  yaw: 129.2623
+  type: admin
+  name: Casino
+  object:
+    type: villager
+    baby: true
+    profession: NONE
+    villagerType: PLAINS
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DEDSAFIO_3_DEDITA_GOLD
+        amount: 5
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DEDSAFIO_3_DEDITAS
+    '2':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DEDSAFIO_3_DEDITAS
+        amount: 2
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DIAMOND
+        amount: 4
+  snapshots: []
+'6':
+  uniqueId: 5afc5ee1-5071-47e1-ae6e-213e512cd27e
+  world: world
+  x: -590
+  y: 142
+  z: -287
+  yaw: 248.31584
+  type: admin
+  name: Decoracion
+  object:
+    type: villager
+    baby: true
+    profession: NONE
+    villagerType: PLAINS
+    villagerLevel: 1
+  recipes:
+    '1':
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DEDSAFIO_3_BATIDORA_LEGENDARIA
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        v: 3465
+        type: DEDSAFIO_3_DEDITAS
+        amount: 3
+  snapshots: []
